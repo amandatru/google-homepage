@@ -1,3 +1,38 @@
 li {
     display: inline;
 }
+
+.right {
+    position: absolute;
+    right: 0px;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+}
+
+a { color: inherit; } 
+
+#center-bar {
+  margin-left: auto;
+  margin-right: auto;
+  width: 65 em;
+}
+
+.bottom{ 
+
+/* Sticky footer code */
+html, body {height: 100%;}
+
+#wrap {min-height: 100%;}
+
+#main {overflow:auto;
+        padding-bottom: 150px;}  /* must be same height as the footer */
+
+#footer {position: relative;
+        margin-top: -150px; /* negative value of footer height */
+        height: 150px;
+        clear:both;} 
+
