@@ -7,32 +7,46 @@ li {
     right: 0px;
 }
 
-.center{
-    margin-left: auto;
-    margin-right: auto;
-    width: 30em;
+#google-pic {
+
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      margin-top: -100px;
+      margin-left: -150px;
 }
+  
+.center{ width: 600px;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      margin-top: -10px;
+      margin-left: -300px;
+}
+
+
+
+   /* margin: 50px; */ 
+
+
+
 
 a { color: inherit; } 
 
-#center-bar {
+/*#center-bar {
   margin-left: auto;
   margin-right: auto;
   width: 65 em;
+}*/
+
+#bottom {  
+    position: fixed;
+        margin-top: 500px;
+        
 }
 
-.bottom{ 
-
-/* Sticky footer code */
-html, body {height: 100%;}
-
-#wrap {min-height: 100%;}
-
-#main {overflow:auto;
-        padding-bottom: 150px;}  /* must be same height as the footer */
-
-#footer {position: relative;
-        margin-top: -150px; /* negative value of footer height */
-        height: 150px;
-        clear:both;} 
-
+#right-bottom {
+  position: fixed;
+  margin-left: 1100px;
+  margin-top: 500px;
+}
